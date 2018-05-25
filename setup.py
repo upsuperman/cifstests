@@ -14,7 +14,7 @@ setup(name='cifstests',
       # download_url
       description='Regression tests for cifs client',
       package_dir={'': 'cifstests'},
-      scripts = ['cifstests/testcifs.py']
+      scripts = ['cifstests/testcifs.py'],
       keywords='cifs tests regression',
       license='GPLv2',
 )
